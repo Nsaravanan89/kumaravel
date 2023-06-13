@@ -1,0 +1,40 @@
+<html>
+        <h1>javascript string methoeds</h1>
+    <p><h3>length of the string</h3></p>
+<p id="demo"></p>
+<p><h3>string slice</h3></p>
+<p id="row"></p>
+<p><h3>string of substring</h3></p>
+<p id="mani"></p>
+<p><h3>string of substr</h3></p>
+<p id="vel"></p>
+<body>
+<script>
+let text = "gverment polytecnic";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+<script>
+let char = "Apple, Banana, Kiwi";
+let part = char.slice(7,13);
+document.getElementById("row").innerHTML = part; 
+</script>
+<script>
+    let string = "Apple, Banana, Kiwi";
+    document.getElementById("mani").innerHTML = string.substring(0,5);
+    </script>
+    <script>
+    let str = "Apple, Banana, Kiwi";
+    document.getElementById("vel").innerHTML = str.substr(15,4);
+    </script>
+    <p><h3>string of touppercase</h3></p>
+      <p id="saro">hello world</p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+    function myFunction() {
+      let text = document.getElementById("saro").innerHTML;
+      document.getElementById("saro").innerHTML =
+      text.toUpperCase();
+    }
+    </script>
+</body>
+</html>

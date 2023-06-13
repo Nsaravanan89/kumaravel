@@ -1,0 +1,74 @@
+<html>
+  <body>
+    <h1>javascript array methoeds</h1>
+         <p><h3>length of array</h3></p>
+        <p id="demo"></p>
+        <p><h3>tostring methoed</h3></p>
+        <p id="row"></p>
+        <p><h3>array join</h3></p>
+        <p id="mani"></p>
+        <p><h3>array pop</h3></p>
+        <p id="vel"></p>
+        <p id="kani"></p>
+        <p><h3>array push</h3></p>
+        <p id="saro"></p>
+        <p id="saro1"></p> 
+        <script>
+        const fruits = ["Banana", "Orange"];
+        let size = fruits.length;
+        document.getElementById("demo").innerHTML = size;
+       
+            
+            const items= ["bad", "strick", "chir", "table"];
+            document.getElementById("row").innerHTML = items.toString();
+          
+                const name= ["class", "techer", "students", "play"];
+                document.getElementById("mani").innerHTML = name.join(" * ");
+           
+                const fru = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("vel").innerHTML = fru;
+                fru.pop();
+                document.getElementById("kani").innerHTML = fru;
+         
+                const lands = ["island", "antartica", "amezon",];
+                document.getElementById("saro").innerHTML = lands;
+                lands.push("andeliya");
+                document.getElementById("saro1").innerHTML = lands;
+            </script>
+        </body>            
+     <body>
+        <h1>javascript string methoeds</h1>
+    <p><h3>length of the string</h3></p>
+<p id="one"></p>
+<p><h3>string slice</h3></p>
+<p id="two"></p>
+<p><h3>string of substring</h3></p>
+<p id="three"></p>
+<p><h3>string of substr</h3></p>
+<p id="four"></p>
+<script>
+let text = "gverment polytecnic";
+document.getElementById("one").innerHTML = text.length;
+
+let char = "Apple, Banana, Kiwi";
+let part = char.slice(7,13);
+document.getElementById("two").innerHTML = part; 
+
+let string = "Apple, Banana, Kiwi";
+document.getElementById("three").innerHTML = string.substring(0,5);
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("four").innerHTML = str.substr(15,4);
+</script>
+    <p><h3>string of touppercase</h3></p>
+      <p id="five">hi saravanan</p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+    function myFunction() {
+      let text = document.getElementById("five").innerHTML;
+      document.getElementById("five").innerHTML =
+      text.toUpperCase();
+    }
+    </script>
+</body>
+</html>

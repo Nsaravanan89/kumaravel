@@ -1,0 +1,76 @@
+<html>
+    <body>
+<h2>largest number</h2>
+<p id="demo"></p>
+<h2>sum method</h2>
+<p id="saro"></p>
+<p id="saro1"></p>
+<h2>find the length of an array</h2>
+<p id="one"></p>
+<h2>add element for end</h2>
+<p id="two"></p>
+<p id="twoo"></p>
+<h2>add element for begining</h2>
+<p id="three"></p>
+<p id="threee"></p>
+<h2>remove the last element</h2>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<h2>remove the first element</h2>
+<p id="four"></p>
+<p id="four1"></p>
+<h2>index an element</h2>
+<p id="five"></p>
+<h2>slice method</h2>
+<p id="six"></p>
+<h2>join method</h2>
+<p id="mani"></p>
+<script>
+document.getElementById("demo").innerHTML =
+Math.max(07247, 15067, 3056, 200, 80, 500);
+
+  const texts = [0,1,2,3,4,];
+  let sum=(texts[0]+texts[1]+texts[2]+texts[3]+texts[4]);
+  document.getElementById("saro").innerHTML = sum;
+    
+ 
+   const fruits = ["Banana", "Orange"];["apple", "watermilan"];
+   let size = fruits.length;
+   document.getElementById("one").innerHTML = size;
+    
+  
+       const lands = ["saro", "kumaravel", "sathish",];
+       document.getElementById("two").innerHTML = lands;
+       lands.push("ramesh");
+       document.getElementById("twoo").innerHTML = lands;
+      
+            const fru = [ "kumaravel", "sathish", "ramesh"];
+            document.getElementById("three").innerHTML = fru;
+            fru.unshift("saro");
+            document.getElementById("threee").innerHTML = fru;
+           
+                const fruit = ["Banana", "Orange", "Apple", "Mango"];
+                document.getElementById("demo1").innerHTML = fruit;
+                fruit.pop();
+                document.getElementById("demo2").innerHTML = fruit;
+               
+                    const fruitss = ["Banana", "Orange", "Apple", "Mango"];
+                    document.getElementById("four").innerHTML = fruitss;
+                    fruitss.shift();
+                    document.getElementById("four1").innerHTML = fruitss;
+
+    let text2 ="   hi, welcome to the universe.";
+    let result = text2.indexOf("welcome");
+    
+    document.getElementById("five").innerHTML = result;
+    
+        let text1 = "never ever give up";
+        let result1 = text1.slice(0,10);
+        
+        document.getElementById("six").innerHTML = result1;
+        
+            const name= ["gevrment", "polytecnic", "college"];
+            document.getElementById("mani").innerHTML = name.join("  ");
+           </script>
+</body>
+</html>
